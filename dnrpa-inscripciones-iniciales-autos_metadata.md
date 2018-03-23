@@ -25,7 +25,7 @@ Características
 Recursos disponibles
 --------------------
 
-### Estadística de Inscripciones Iniciales de Automotores AAAA-MM
+### DNRPA. Inscripciones Iniciales de Automotores AAAA-MM
 
 -   **Nombre del archivo:** inscripciones-iniciales-automotores-AAAA-MM.csv
 
