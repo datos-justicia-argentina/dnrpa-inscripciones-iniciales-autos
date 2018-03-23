@@ -3,7 +3,7 @@ DNRPA. Inscripciones iniciales de Autos
 
 En este cuerpo de datos se detallan los datos de vehículos y primer titular de inscripciones iniciales de automotores. El trámite de inscripción inicial del automotor se realiza en los Registros Seccionales de la Propiedad del Automotor y Créditos Prendarios dependientes de la Dirección Nacional de Registros Nacionales de la Propiedad Automotor y Créditos Prendarios. Mayormente corresponde a autos cero kilómetro, pero también pueden inscribirse autos clásicos y subastados entre otros. Se consideran automotores: automóviles, camiones, inclusive los llamados tractores para semirremolque, camionetas, rurales, jeeps, furgones de reparto, ómnibus, microómnibus y colectivos, sus respectivos remolques y acoplados, todos ellos aun cuando no estuvieran carrozados.
 
-http://datos.jus.gob.ar/dataset/inscripcion-inicial-automotores
+http://datos.jus.gob.ar/dataset/inscripciones-iniciales-de-autos
 
 Características
 ---------------
