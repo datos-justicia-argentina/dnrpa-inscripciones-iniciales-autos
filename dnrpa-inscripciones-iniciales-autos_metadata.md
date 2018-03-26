@@ -97,7 +97,7 @@ Recursos disponibles
     
 -   **titular_año_nacimiento (int):** sexo del primer titular declarado.
 
--   **titular_pais_nacimiento (string):** país de nacimiento del primer titular declarado. En el caso de personas jurídicas toma el valor "No Aplica".
+-   **titular_pais_nacimiento (string):** país de nacimiento del primer titular declarado. En el caso de personas jurídicas toma el valor "No aplica".
 
 -   **titular_porcentaje_titularidad (int):** porcentaje de titularidad.
 
