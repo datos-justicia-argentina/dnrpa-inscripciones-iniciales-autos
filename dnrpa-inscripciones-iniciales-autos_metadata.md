@@ -87,11 +87,14 @@ Recursos disponibles
 
 -   **titular\_sexo (string):** sexo del primer titular declarado. Puede tomar los valores
 
-    -   Masculino
+    -   Masculino (en caso de persona física)
 
-    -   Femenino
+    -   Femenino (en caso de persona física)
 
-    -   No identificado
+    -   No identificado (en caso de persona física)
+    
+    -   No aplica (en caso de persona jurídica)
+    
 
 -   **titular\_año\_nacimiento (int):** sexo del primer titular declarado.
 
