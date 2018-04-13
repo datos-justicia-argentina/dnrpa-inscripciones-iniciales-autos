@@ -29,7 +29,7 @@ Recursos disponibles
 
 -   **Nombre del archivo:** inscripciones-iniciales-automotores-AAAA-MM.csv
 
--   **Descripción del contenido:** se detalla la cantidad de autos 0km inscriptos, por año, mes y provincia
+-   **Descripción del contenido:** se detallan las inscripciones iniciales efectuadas en los Registros Seccionales de la propiedad del automotor en el mes MM del año AAAA
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -100,6 +100,15 @@ Recursos disponibles
 -   **titular_pais_nacimiento (string):** país de nacimiento del primer titular declarado. En el caso de personas jurídicas toma el valor "No aplica".
 
 -   **titular_porcentaje_titularidad (int):** porcentaje de titularidad.
+
+### DNRPA. Inscripciones iniciales de autos - AAAA
+
+-   **Nombre:** dnrpa-inscripciones-iniciales-autos-AAAA.zip
+
+-   **Descripción del contenido:** archivo comprimido que contiene las inscripciones iniciales inscriptas en los Registros Seccionales de la Propiedad del Automotor y Créditos Prendarios durante el año AAAA
+
+-   **Formato:** ZIP
+
 
 ### Notas
 
