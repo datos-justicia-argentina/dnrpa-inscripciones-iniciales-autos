@@ -101,6 +101,8 @@ Recursos disponibles
 
 -   **titular_porcentaje_titularidad (int):** porcentaje de titularidad.
 
+-   **titular_domicilio_provincia_indec_id (string):** código de provincia del domicilio del primer titular declarado, según la codificación de provincia implementada por INDEC .
+
 ### DNRPA. Inscripciones iniciales de autos - AAAA
 
 -   **Nombre:** dnrpa-inscripciones-iniciales-autos-AAAA.zip
