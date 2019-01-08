@@ -1,7 +1,7 @@
 DNRPA. Inscripciones iniciales de Autos
 =======================================
 
-En este cuerpo de datos se detallan los datos de vehículos y primer titular de inscripciones iniciales de automotores. El trámite de inscripción inicial del automotor se realiza en los Registros Seccionales de la Propiedad del Automotor y Créditos Prendarios dependientes de la Dirección Nacional de Registros Nacionales de la Propiedad Automotor y Créditos Prendarios. Mayormente corresponde a autos cero kilómetro, pero también pueden inscribirse autos clásicos y subastados entre otros. Se consideran automotores: automóviles, camiones, inclusive los llamados tractores para semirremolque, camionetas, rurales, jeeps, furgones de reparto, ómnibus, microómnibus y colectivos, sus respectivos remolques y acoplados, todos ellos aun cuando no estuvieran carrozados.
+En este conjunto de datos se detallan los datos de vehículos y primer titular de inscripciones iniciales de automotores. El trámite de inscripción inicial del automotor se realiza en los Registros Seccionales de la Propiedad del Automotor y Créditos Prendarios dependientes de la Dirección Nacional de Registros Nacionales de la Propiedad Automotor y Créditos Prendarios. Mayormente corresponde a autos cero kilómetro, pero también pueden inscribirse autos clásicos y subastados entre otros. Se consideran automotores: automóviles, camiones, inclusive los llamados tractores para semirremolque, camionetas, rurales, jeeps, furgones de reparto, ómnibus, microómnibus y colectivos, sus respectivos remolques y acoplados, todos ellos aun cuando no estuvieran carrozados.
 
 http://datos.jus.gob.ar/dataset/inscripciones-iniciales-de-autos
 
@@ -33,37 +33,39 @@ Recursos disponibles
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** desde el 01-01-2018 a la fecha consignada como "Datos actualizados al"
+-   **Rango temporal:** inscripciones iniciales efectuadas en los Registros Seccionales de la propiedad del automotor desde el 01-01-2018 a la fecha consignada como "Datos actualizados al"
 
 ### Campos del recurso
 
--   **tramite_tipo (string):** tipo de inscripción realizada. Puede referir a una inscripción realizada mediante Formulario 01 (autos nacionales o importados), Formulario 05 (automotores subastados) o automotores clásicos.
+-   **tramite_tipo (string):** tipo de inscripción realizada. Puede referir a una inscripción realizada mediante Formulario 01 (autos nacionales o importados), Formulario 05 (automotores subastados) o automotores clásicos
 
--   **tramite_fecha (date):** fecha del trámite en la cual se perfecciona el trámite. Formato AAAA-MM-DD.
+-   **tramite_fecha (date):** fecha del trámite en la cual se perfecciona el trámite. Formato AAAA-MM-DD
 
--   **fecha_inscripcion_inicial (date):** fecha de inscripción inicial. Formato AAAA-MM-DD.
+-   **fecha_inscripcion_inicial (date):** fecha de inscripción inicial. Formato AAAA-MM-DD
 
--   **registro_seccional_codigo (int):** código del Registro Seccional en que se efectuó el trámite. Los códigos de Registros Seccionales están organizados por provincia y competencia.
+-   **registro_seccional_codigo (int):** código del Registro Seccional en que se efectuó el trámite. Los códigos de Registros Seccionales están organizados por provincia y competencia
 
--   **registro_seccional_descripcion (string):** nombre del Registro Seccional en que se efectuó el trámite. Generalmente nombre refiere a la localización del Registro Seccional. No siempre coincide con la localidad del domicilio del titular del automotor.
+-   **registro_seccional_descripcion (string):** nombre del Registro Seccional en que se efectuó el trámite. Generalmente nombre refiere a la localización del Registro Seccional. No siempre coincide con la localidad del domicilio del titular del automotor
 
--   **registro_seccional_provincia (string):** provincia donde se localiza el Registro Seccional en que se inscribió el trámite. Corresponde asimismo a la provincia del domicilio del primer titular de la inscripción o de la guarda habitual del dominio.
+-   **registro_seccional_provincia (string):** provincia donde se localiza el Registro Seccional en que se inscribió el trámite. Corresponde asimismo a la provincia del domicilio del primer titular de la inscripción o de la guarda habitual del dominio
 
--   **automotor_origen (string):** corresponde al origen del vehículo. Puede tomar los valores I Importado, N Nacional o P Protocolo 21, que se rigen por los aranceles de los automotores nacionales pero se inscriben con el certificado de importación.
+-   **automotor_origen (string):** corresponde al origen del vehículo. Puede tomar los valores I Importado, N Nacional o P Protocolo 21, que se rigen por los aranceles de los automotores nacionales pero se inscriben con el certificado de importación
 
--   **automotor_tipo_codigo (string):** código del tipo del automotor.
+-   **automotor_anio_modelo (int):**  año en que se fabricó el modelo del automotor
+
+-   **automotor_tipo_codigo (string):** código del tipo del automotor
 
 -   **automotor_tipo_descripcion (string):** descripción del tipo del automotor. Puede tomar los valores sedán, pick-up, camión, semirremolque, todo terreno, minibús, etc.
 
--   **automotor_marca_codigo (string):** código de la marca del automotor.
+-   **automotor_marca_codigo (string):** código de la marca del automotor
 
--   **automotor_marca_descripcion (string):** descripción de la marca del automotor.
+-   **automotor_marca_descripcion (string):** descripción de la marca del automotor
 
--   **automotor_modelo_codigo (string):** código del modelo del automotor.
+-   **automotor_modelo_codigo (string):** código del modelo del automotor
 
--   **automotor_modelo_descripcion (string):** descripción del modelo del automotor.
+-   **automotor_modelo_descripcion (string):** descripción del modelo del automotor
 
--   **automotor_uso_codigo (string):** código de uso del automotor.
+-   **automotor_uso_codigo (string):** código de uso del automotor
 
 -   **automotor_uso_descripcion (string):** descripción del uso declarado del automotor. Puede tomar los valores
 
@@ -81,11 +83,11 @@ Recursos disponibles
 
     -   No identificada
 
--   **titular_domicilio_localidad (string):** localidad del domicilio del primer titular declarado.
+-   **titular_domicilio_localidad (string):** localidad del domicilio del primer titular declarado
 
--   **titular_domicilio_provincia (string):** provincia del domicilio del primer titular declarado.
+-   **titular_domicilio_provincia (string):** provincia del domicilio del primer titular declarado
 
--   **titular_sexo (string):** sexo del primer titular declarado. Puede tomar los valores
+-   **titular_genero (string):** género del primer titular declarado. Puede tomar los valores
 
     -   Masculino (en caso de persona física)
 
@@ -95,15 +97,15 @@ Recursos disponibles
     
     -   No aplica (en caso de persona jurídica)
     
--   **titular_año_nacimiento (int):** sexo del primer titular declarado.
+-   **titular_anio_nacimiento (int):** año de nacimiento del primer titular declarado
 
--   **titular_pais_nacimiento (string):** país de nacimiento del primer titular declarado. En el caso de personas jurídicas toma el valor "No aplica".
+-   **titular_pais_nacimiento (string):** país de nacimiento del primer titular declarado. En el caso de personas jurídicas toma el valor "No aplica"
 
--   **titular_porcentaje_titularidad (int):** porcentaje de titularidad.
+-   **titular_porcentaje_titularidad (int):** porcentaje de titularidad
 
--   **titular_domicilio_provincia_indec_id (string):** código de provincia del domicilio del primer titular declarado, según la codificación de provincia implementada por INDEC.
+-   **titular_domicilio_provincia_indec_id (string):** código de provincia del domicilio del primer titular declarado, según la codificación de provincia implementada por INDEC
 
--   **titular_pais_nacimiento_indec_id (string):** código de pais de nacimiento del primer titular declarado, según la codificación de pais implementada por INDEC.
+-   **titular_pais_nacimiento_indec_id (string):** código de pais de nacimiento del primer titular declarado, según la codificación de pais implementada por INDEC
 
 ### DNRPA. Inscripciones iniciales de autos - AAAA
 
