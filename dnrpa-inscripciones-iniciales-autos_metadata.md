@@ -39,7 +39,7 @@ Recursos disponibles
 
 -   **tramite_tipo (string):** tipo de inscripción realizada. Puede referir a una inscripción realizada mediante Formulario 01 (autos nacionales o importados), Formulario 05 (automotores subastados) o automotores clásicos
 
--   **tramite_fecha (date):** fecha del trámite en la cual se perfecciona el trámite. Formato AAAA-MM-DD
+-   **tramite_fecha (date):** fecha en la cual se perfecciona el trámite. Formato AAAA-MM-DD
 
 -   **fecha_inscripcion_inicial (date):** fecha de inscripción inicial. Formato AAAA-MM-DD
 
