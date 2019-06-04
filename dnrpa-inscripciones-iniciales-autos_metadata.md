@@ -25,9 +25,9 @@ Características
 Recursos disponibles
 --------------------
 
-### DNRPA. Inscripciones Iniciales de autos AAAA-MM
+### DNRPA. Inscripciones Iniciales de autos - AAAAMM
 
--   **Nombre del archivo:** dnrpa-inscripciones-iniciales-autos-AAAA-MM.csv
+-   **Nombre del archivo:** dnrpa-inscripciones-iniciales-autos-AAAAMM.csv
 
 -   **Descripción del contenido:** se detallan las inscripciones iniciales efectuadas en los Registros Seccionales de la propiedad del automotor en el mes MM del año AAAA
 
