@@ -10,7 +10,7 @@ Características
 
 -   **Fecha de Primera Publicación:** 26/01/2018
 
--   **Tags o Etiquetas:** autos, registración, registros seccionales, titulares, inscripciones iniciales, 0km, fabricación, importación, trámites, vehículosa, automotores, DNRPA
+-   **Tags o Etiquetas:** autos, registración, registros seccionales, titulares, inscripciones, 0km, fabricación, importación, trámites, vehículos, automotores, DNRPA
 
 -   **Organización:** Ministerio de Justicia y Derechos Humanos. Subsecretaría de Asuntos Registrales. Dirección Nacional de Registros Nacionales de la Propiedad Automotor y Créditos Prendarios
 
